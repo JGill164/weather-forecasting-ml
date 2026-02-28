@@ -18,3 +18,11 @@ RandomForestRegressor (200 trees)
 - Baseline (lag_12): 73.51
 
 Model outperforms naive seasonal baseline.
+
+## Tableau Dashboard
+
+The visualization below shows historical rainfall in Vancouver alongside a 5-year forecast generated using a Random Forest regression model.
+
+A vertical reference line marks the forecast start (January 2026).
+
+![Rainfall Forecast](tableau/dashboard.png)
